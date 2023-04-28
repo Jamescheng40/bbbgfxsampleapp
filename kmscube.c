@@ -49,7 +49,7 @@
 uint8_t DISP_ID = 0;
 uint8_t all_display = 0;
 int8_t connector_id = -1;
-char* device = "/dev/dri/card0";
+char* device = "/dev/dri/card1";
 
 static struct {
 	EGLDisplay display;

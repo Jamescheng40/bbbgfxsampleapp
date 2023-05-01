@@ -410,6 +410,20 @@ static int init_gl(void)
         "}                                            \n";
 
 
+	static const EGLint context_attribs[] = {
+			EGL_CONTEXT_CLIENT_VERSION, 2,
+			EGL_NONE
+	};
+
+	static const EGLint config_attribs[] = {
+			EGL_SURFACE_TYPE, EGL_WINDOW_BIT,
+			EGL_RED_SIZE, 1,
+			EGL_GREEN_SIZE, 1,
+			EGL_BLUE_SIZE, 1,
+			EGL_ALPHA_SIZE, 0,
+			EGL_RENDERABLE_TYPE, EGL_OPENGL_ES2_BIT,
+			EGL_NONE
+	};
 
 	gl.display = eglGetDisplay(gbm.dev);
 

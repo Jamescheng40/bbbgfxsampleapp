@@ -470,7 +470,9 @@ static int init_gl(void)
 	gl.vertex_shader = glCreateShader(GL_VERTEX_SHADER);
 
 	glShaderSource(gl.vertex_shader, 1, &vShaderStr, NULL);
+	printf("-----compile vertex shader begins---- \n");
 	glCompileShader(gl.vertex_shader);
+	printf("-----compile vertex shader ends ---- \n");
 
 	glGetShaderiv(gl.vertex_shader, GL_COMPILE_STATUS, &ret);
 	if (!ret) {
@@ -490,7 +492,9 @@ static int init_gl(void)
 	gl.fragment_shader = glCreateShader(GL_FRAGMENT_SHADER);
 
 	glShaderSource(gl.fragment_shader, 1, &fShaderStr, NULL);
+	printf("-----compile frag shader begins---- \n");
 	glCompileShader(gl.fragment_shader);
+	printf("-----compile frag shader ends ---- \n");
 
 	glGetShaderiv(gl.fragment_shader, GL_COMPILE_STATUS, &ret);
 	if (!ret) {

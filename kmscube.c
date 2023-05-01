@@ -395,14 +395,14 @@ static int init_gl(void)
     static const GLfloat vVertices[] =
     { 0.0f, 0.5f, 0.0f, -0.5f, -0.5f, 0.0f, 0.5f, -0.5f, 0.0f };
 
-    static const GLchar vShaderStr[] =
+    static const char * vShaderStr[] =
         "attribute vec4 vPosition;    \n"
         "void main()                  \n"
         "{                            \n"
         "   gl_Position = vPosition;  \n"
         "}                            \n";
 
-    static const GLchar fShaderStr[] =
+    static const char * fShaderStr[] =
         "precision mediump float;\n"
         "void main()                                  \n"
         "{                                            \n"

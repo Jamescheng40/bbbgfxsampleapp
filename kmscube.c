@@ -832,11 +832,11 @@ int main(int argc, char *argv[])
 		}
 	}
 	bool loopempty = false;
-	while (loopempty == true) {
+	while (loopempty == false) {
 
 		if(loopempty == true)
 		{
-
+			
 		}
 		else
 		{

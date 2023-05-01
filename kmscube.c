@@ -392,6 +392,7 @@ static int init_gl(void)
 	EGLint major, minor, n;
 	GLint ret;
 
+	//triangle Shape config ---
     static const GLfloat vVertices[] =
     { 0.0f, 0.5f, 0.0f, -0.5f, -0.5f, 0.0f, 0.5f, -0.5f, 0.0f };
 
@@ -408,7 +409,7 @@ static int init_gl(void)
         "{                                            \n"
         "  gl_FragColor = vec4 ( 1.0, 0.0, 0.0, 1.0 );\n"
         "}                                            \n";
-
+	//triangle Shape config end ---
 
 	static const EGLint context_attribs[] = {
 			EGL_CONTEXT_CLIENT_VERSION, 2,

@@ -837,7 +837,7 @@ int main(int argc, char *argv[])
 		int waiting_for_flip;
 		int cc;
 
-		draw(i++);
+		//draw(i++);
 
 		eglSwapBuffers(gl.display, gl.surface);
 		next_bo = gbm_surface_lock_front_buffer(gbm.surface);

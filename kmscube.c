@@ -832,7 +832,7 @@ int main(int argc, char *argv[])
 		}
 	}
 	bool loopempty = false;
-	while (loopempty == true) {
+	while (true) {
 
 		if(loopempty == true)
 		{

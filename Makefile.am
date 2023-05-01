@@ -40,5 +40,4 @@ kmscube_CFLAGS = \
 	$(GLES2_CFLAGS)
 
 kmscube_SOURCES = \
-	kmscube.c \
-	esTransform.c
+	kmscube.c

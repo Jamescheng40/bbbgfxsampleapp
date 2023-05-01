@@ -392,153 +392,24 @@ static int init_gl(void)
 	EGLint major, minor, n;
 	GLint ret;
 
-	static const GLfloat vVertices[] = {
-			// front
-			-1.0f, -1.0f, +1.0f, // point blue
-			+1.0f, -1.0f, +1.0f, // point magenta
-			-1.0f, +1.0f, +1.0f, // point cyan
-			+1.0f, +1.0f, +1.0f, // point white
-			// back
-			+1.0f, -1.0f, -1.0f, // point red
-			-1.0f, -1.0f, -1.0f, // point black
-			+1.0f, +1.0f, -1.0f, // point yellow
-			-1.0f, +1.0f, -1.0f, // point green
-			// right
-			+1.0f, -1.0f, +1.0f, // point magenta
-			+1.0f, -1.0f, -1.0f, // point red
-			+1.0f, +1.0f, +1.0f, // point white
-			+1.0f, +1.0f, -1.0f, // point yellow
-			// left
-			-1.0f, -1.0f, -1.0f, // point black
-			-1.0f, -1.0f, +1.0f, // point blue
-			-1.0f, +1.0f, -1.0f, // point green
-			-1.0f, +1.0f, +1.0f, // point cyan
-			// top
-			-1.0f, +1.0f, +1.0f, // point cyan
-			+1.0f, +1.0f, +1.0f, // point white
-			-1.0f, +1.0f, -1.0f, // point green
-			+1.0f, +1.0f, -1.0f, // point yellow
-			// bottom
-			-1.0f, -1.0f, -1.0f, // point black
-			+1.0f, -1.0f, -1.0f, // point red
-			-1.0f, -1.0f, +1.0f, // point blue
-			+1.0f, -1.0f, +1.0f  // point magenta
-	};
+    static const GLfloat vVertices[] =
+    { 0.0f, 0.5f, 0.0f, -0.5f, -0.5f, 0.0f, 0.5f, -0.5f, 0.0f };
 
-	static const GLfloat vColors[] = {
-			// front
-			0.0f,  0.0f,  1.0f, // blue
-			1.0f,  0.0f,  1.0f, // magenta
-			0.0f,  1.0f,  1.0f, // cyan
-			1.0f,  1.0f,  1.0f, // white
-			// back
-			1.0f,  0.0f,  0.0f, // red
-			0.0f,  0.0f,  0.0f, // black
-			1.0f,  1.0f,  0.0f, // yellow
-			0.0f,  1.0f,  0.0f, // green
-			// right
-			1.0f,  0.0f,  1.0f, // magenta
-			1.0f,  0.0f,  0.0f, // red
-			1.0f,  1.0f,  1.0f, // white
-			1.0f,  1.0f,  0.0f, // yellow
-			// left
-			0.0f,  0.0f,  0.0f, // black
-			0.0f,  0.0f,  1.0f, // blue
-			0.0f,  1.0f,  0.0f, // green
-			0.0f,  1.0f,  1.0f, // cyan
-			// top
-			0.0f,  1.0f,  1.0f, // cyan
-			1.0f,  1.0f,  1.0f, // white
-			0.0f,  1.0f,  0.0f, // green
-			1.0f,  1.0f,  0.0f, // yellow
-			// bottom
-			0.0f,  0.0f,  0.0f, // black
-			1.0f,  0.0f,  0.0f, // red
-			0.0f,  0.0f,  1.0f, // blue
-			1.0f,  0.0f,  1.0f  // magenta
-	};
+    static const GLchar vShaderStr[] =
+        "attribute vec4 vPosition;    \n"
+        "void main()                  \n"
+        "{                            \n"
+        "   gl_Position = vPosition;  \n"
+        "}                            \n";
 
-	static const GLfloat vNormals[] = {
-			// front
-			+0.0f, +0.0f, +1.0f, // forward
-			+0.0f, +0.0f, +1.0f, // forward
-			+0.0f, +0.0f, +1.0f, // forward
-			+0.0f, +0.0f, +1.0f, // forward
-			// back
-			+0.0f, +0.0f, -1.0f, // backbard
-			+0.0f, +0.0f, -1.0f, // backbard
-			+0.0f, +0.0f, -1.0f, // backbard
-			+0.0f, +0.0f, -1.0f, // backbard
-			// right
-			+1.0f, +0.0f, +0.0f, // right
-			+1.0f, +0.0f, +0.0f, // right
-			+1.0f, +0.0f, +0.0f, // right
-			+1.0f, +0.0f, +0.0f, // right
-			// left
-			-1.0f, +0.0f, +0.0f, // left
-			-1.0f, +0.0f, +0.0f, // left
-			-1.0f, +0.0f, +0.0f, // left
-			-1.0f, +0.0f, +0.0f, // left
-			// top
-			+0.0f, +1.0f, +0.0f, // up
-			+0.0f, +1.0f, +0.0f, // up
-			+0.0f, +1.0f, +0.0f, // up
-			+0.0f, +1.0f, +0.0f, // up
-			// bottom
-			+0.0f, -1.0f, +0.0f, // down
-			+0.0f, -1.0f, +0.0f, // down
-			+0.0f, -1.0f, +0.0f, // down
-			+0.0f, -1.0f, +0.0f  // down
-	};
+    static const GLchar fShaderStr[] =
+        "precision mediump float;\n"
+        "void main()                                  \n"
+        "{                                            \n"
+        "  gl_FragColor = vec4 ( 1.0, 0.0, 0.0, 1.0 );\n"
+        "}                                            \n";
 
-	static const EGLint context_attribs[] = {
-		EGL_CONTEXT_CLIENT_VERSION, 2,
-		EGL_NONE
-	};
 
-	static const EGLint config_attribs[] = {
-		EGL_SURFACE_TYPE, EGL_WINDOW_BIT,
-		EGL_RED_SIZE, 1,
-		EGL_GREEN_SIZE, 1,
-		EGL_BLUE_SIZE, 1,
-		EGL_ALPHA_SIZE, 0,
-		EGL_RENDERABLE_TYPE, EGL_OPENGL_ES2_BIT,
-		EGL_NONE
-	};
-
-	static const char *vertex_shader_source =
-			"uniform mat4 modelviewMatrix;      \n"
-			"uniform mat4 modelviewprojectionMatrix;\n"
-			"uniform mat3 normalMatrix;         \n"
-			"                                   \n"
-			"attribute vec4 in_position;        \n"
-			"attribute vec3 in_normal;          \n"
-			"attribute vec4 in_color;           \n"
-			"\n"
-			"vec4 lightSource = vec4(2.0, 2.0, 20.0, 0.0);\n"
-			"                                   \n"
-			"varying vec4 vVaryingColor;        \n"
-			"                                   \n"
-			"void main()                        \n"
-			"{                                  \n"
-			"    gl_Position = modelviewprojectionMatrix * in_position;\n"
-			"    vec3 vEyeNormal = normalMatrix * in_normal;\n"
-			"    vec4 vPosition4 = modelviewMatrix * in_position;\n"
-			"    vec3 vPosition3 = vPosition4.xyz / vPosition4.w;\n"
-			"    vec3 vLightDir = normalize(lightSource.xyz - vPosition3);\n"
-			"    float diff = max(0.0, dot(vEyeNormal, vLightDir));\n"
-			"    vVaryingColor = vec4(diff * in_color.rgb, 1.0);\n"
-			"}                                  \n";
-
-	static const char *fragment_shader_source =
-			"precision mediump float;           \n"
-			"                                   \n"
-			"varying vec4 vVaryingColor;        \n"
-			"                                   \n"
-			"void main()                        \n"
-			"{                                  \n"
-			"    gl_FragColor = vVaryingColor;  \n"
-			"}                                  \n";
 
 	gl.display = eglGetDisplay(gbm.dev);
 
@@ -583,7 +454,7 @@ static int init_gl(void)
 
 	gl.vertex_shader = glCreateShader(GL_VERTEX_SHADER);
 
-	glShaderSource(gl.vertex_shader, 1, &vertex_shader_source, NULL);
+	glShaderSource(gl.vertex_shader, 1, &vShaderStr, NULL);
 	glCompileShader(gl.vertex_shader);
 
 	glGetShaderiv(gl.vertex_shader, GL_COMPILE_STATUS, &ret);
@@ -603,7 +474,7 @@ static int init_gl(void)
 
 	gl.fragment_shader = glCreateShader(GL_FRAGMENT_SHADER);
 
-	glShaderSource(gl.fragment_shader, 1, &fragment_shader_source, NULL);
+	glShaderSource(gl.fragment_shader, 1, &fShaderStr, NULL);
 	glCompileShader(gl.fragment_shader);
 
 	glGetShaderiv(gl.fragment_shader, GL_COMPILE_STATUS, &ret);
@@ -660,19 +531,19 @@ static int init_gl(void)
 
 	gl.positionsoffset = 0;
 	gl.colorsoffset = sizeof(vVertices);
-	gl.normalsoffset = sizeof(vVertices) + sizeof(vColors);
+	gl.normalsoffset = sizeof(vVertices);
 	glGenBuffers(1, &gl.vbo);
 	glBindBuffer(GL_ARRAY_BUFFER, gl.vbo);
-	glBufferData(GL_ARRAY_BUFFER, sizeof(vVertices) + sizeof(vColors) + sizeof(vNormals), 0, GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(vVertices) , 0, GL_STATIC_DRAW);
 	glBufferSubData(GL_ARRAY_BUFFER, gl.positionsoffset, sizeof(vVertices), &vVertices[0]);
-	glBufferSubData(GL_ARRAY_BUFFER, gl.colorsoffset, sizeof(vColors), &vColors[0]);
-	glBufferSubData(GL_ARRAY_BUFFER, gl.normalsoffset, sizeof(vNormals), &vNormals[0]);
+	//glBufferSubData(GL_ARRAY_BUFFER, gl.colorsoffset, sizeof(vColors), &vColors[0]);
+	//glBufferSubData(GL_ARRAY_BUFFER, gl.normalsoffset, sizeof(vNormals), &vNormals[0]);
 	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, (const GLvoid*)gl.positionsoffset);
 	glEnableVertexAttribArray(0);
-	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, (const GLvoid*)gl.normalsoffset);
-	glEnableVertexAttribArray(1);
-	glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, 0, (const GLvoid*)gl.colorsoffset);
-	glEnableVertexAttribArray(2);
+	//glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, (const GLvoid*)gl.normalsoffset);
+	//glEnableVertexAttribArray(1);
+	//glVertexAttribPointer(2, 3, GL_FLOAT, GL_FALSE, 0, (const GLvoid*)gl.colorsoffset);
+	//glEnableVertexAttribArray(2);
 
 	return 0;
 }

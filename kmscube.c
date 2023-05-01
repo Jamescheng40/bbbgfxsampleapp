@@ -615,36 +615,36 @@ static void draw(uint32_t i)
 	glClearColor(0.5, 0.5, 0.5, 1.0);
 	glClear(GL_COLOR_BUFFER_BIT);
 
-	esMatrixLoadIdentity(&modelview);
-	esTranslate(&modelview, 0.0f, 0.0f, -8.0f);
-	esRotate(&modelview, 45.0f + (0.25f * i), 1.0f, 0.0f, 0.0f);
-	esRotate(&modelview, 45.0f - (0.5f * i), 0.0f, 1.0f, 0.0f);
-	esRotate(&modelview, 10.0f + (0.15f * i), 0.0f, 0.0f, 1.0f);
+	// esMatrixLoadIdentity(&modelview);
+	// esTranslate(&modelview, 0.0f, 0.0f, -8.0f);
+	// esRotate(&modelview, 45.0f + (0.25f * i), 1.0f, 0.0f, 0.0f);
+	// esRotate(&modelview, 45.0f - (0.5f * i), 0.0f, 1.0f, 0.0f);
+	// esRotate(&modelview, 10.0f + (0.15f * i), 0.0f, 0.0f, 1.0f);
 
-	GLfloat aspect = (GLfloat)(drm.mode[DISP_ID]->vdisplay) / (GLfloat)(drm.mode[DISP_ID]->hdisplay);
+	//GLfloat aspect = (GLfloat)(drm.mode[DISP_ID]->vdisplay) / (GLfloat)(drm.mode[DISP_ID]->hdisplay);
 
-	ESMatrix projection;
-	esMatrixLoadIdentity(&projection);
-	esFrustum(&projection, -2.8f, +2.8f, -2.8f * aspect, +2.8f * aspect, 6.0f, 10.0f);
+	//ESMatrix projection;
+	//esMatrixLoadIdentity(&projection);
+	//esFrustum(&projection, -2.8f, +2.8f, -2.8f * aspect, +2.8f * aspect, 6.0f, 10.0f);
 
-	ESMatrix modelviewprojection;
-	esMatrixLoadIdentity(&modelviewprojection);
-	esMatrixMultiply(&modelviewprojection, &modelview, &projection);
+	//ESMatrix modelviewprojection;
+	//esMatrixLoadIdentity(&modelviewprojection);
+	//esMatrixMultiply(&modelviewprojection, &modelview, &projection);
 
-	float normal[9];
-	normal[0] = modelview.m[0][0];
-	normal[1] = modelview.m[0][1];
-	normal[2] = modelview.m[0][2];
-	normal[3] = modelview.m[1][0];
-	normal[4] = modelview.m[1][1];
-	normal[5] = modelview.m[1][2];
-	normal[6] = modelview.m[2][0];
-	normal[7] = modelview.m[2][1];
-	normal[8] = modelview.m[2][2];
+	// float normal[9];
+	// normal[0] = modelview.m[0][0];
+	// normal[1] = modelview.m[0][1];
+	// normal[2] = modelview.m[0][2];
+	// normal[3] = modelview.m[1][0];
+	// normal[4] = modelview.m[1][1];
+	// normal[5] = modelview.m[1][2];
+	// normal[6] = modelview.m[2][0];
+	// normal[7] = modelview.m[2][1];
+	// normal[8] = modelview.m[2][2];
 
-	glUniformMatrix4fv(gl.modelviewmatrix, 1, GL_FALSE, &modelview.m[0][0]);
-	glUniformMatrix4fv(gl.modelviewprojectionmatrix, 1, GL_FALSE, &modelviewprojection.m[0][0]);
-	glUniformMatrix3fv(gl.normalmatrix, 1, GL_FALSE, normal);
+	// glUniformMatrix4fv(gl.modelviewmatrix, 1, GL_FALSE, &modelview.m[0][0]);
+	// glUniformMatrix4fv(gl.modelviewprojectionmatrix, 1, GL_FALSE, &modelviewprojection.m[0][0]);
+	// glUniformMatrix3fv(gl.normalmatrix, 1, GL_FALSE, normal);
 
 	glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
 	glDrawArrays(GL_TRIANGLE_STRIP, 4, 4);

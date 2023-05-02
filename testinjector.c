@@ -3,9 +3,19 @@
 #include <stdio.h>
 #include <dlfcn.h>
 #include <stdint.h>
-#define STB_DS_IMPLEMENTATION
+#include <string.h>
+#include <stdbool.h>
+//TODO alternative for non musl/glibc (does this driver even run on other systems?)
 #include <link.h>
+#include <signal.h>
+
+#define STB_DS_IMPLEMENTATION
 #include "stb_ds.h"
+#include <sys/mman.h>
+#include <ucontext.h>
+#include <pthread.h>
+#include <sched.h>
+#include <unistd.h>
 
 typedef struct Library {
     uintptr_t base;

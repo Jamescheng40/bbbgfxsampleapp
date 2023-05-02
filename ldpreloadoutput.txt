@@ -1,0 +1,2 @@
+loaded module : gbm_pvr.so
+found valid GBM backend : gbm_pvr.so

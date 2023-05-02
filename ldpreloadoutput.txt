@@ -1,2 +1,4201 @@
 loaded module : gbm_pvr.so
 found valid GBM backend : gbm_pvr.so
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+thread
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+### Display [0]: CRTC = 28, Connector = 30, format = 0x36314752
+	Mode chosen [1920x1080] : Clock => 74250, Vertical refresh => 30, Type => 64
+	Horizontal => 1920, 2008, 2052, 2200, 0
+	Vertical => 1080, 1084, 1089, 1125, 0
+### Primary display => ConnectorId = 30, Resolution = 1920x1080
+
+dlopened: /usr/lib/gbm/gbm_pvr.so
+external memcpy
+
+dlopened: libGLES_CM.so
+
+dlopened: libGLESv2.so
+
+dlopened: libpvrDRMWSEGL.so
+
+dlopened: libpvrws_WAYLAND.so
+
+dlopened: libpvrGBMWSEGL.so
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+Using display 0x1 with EGL version 1.4
+EGL Version "1.4 build 1.14@3699939 (MAIN)"
+EGL Vendor "Imagination Technologies"
+EGL Extensions "EGL_IMG_client_api_ogl EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_vg_parent_image EGL_IMG_cl_image EGL_KHR_fence_sync EGL_IMG_context_priority EGL_IMG_hibernate_process EGL_IMG_image_plane_attribs EGL_KHR_surfaceless_context EGL_KHR_wait_sync EGL_KHR_create_context EGL_WL_bind_wayland_display EGL_EXT_image_dma_buf_import"
+
+dlopened: libGLESv2.so
+external memcpy
+allocated 2 bytes of memory at 0xb5f4c000 : 41000 (General)
+allocated 4 bytes of memory at 0xb5f4b000 : 42000 (General)
+allocated 4 bytes of memory at 0xb5f4a004 : 42004 (General)
+allocated 8000 bytes of memory at 0xb5f42000 : fc00000 (VertexShaderCode)
+setting breakpoint 8000
+allocated 8000 bytes of memory at 0xb5f39000 : f408000 (PixelShaderCode)
+allocated 8000 bytes of memory at 0xb5f30000 : dc08000 (PDSPPixelCodeData)
+allocated 8000 bytes of memory at 0xb5f27000 : 48000 (General)
+allocated 4 bytes of memory at 0xb5f25000 : d803000 (CacheCoherent)
+cache coherent hook, new allocation: 0xb5f24004 d803004
+allocated 8 bytes of memory at 0xb5f23000 : f417000 (PixelShaderCode)
+allocated 8 bytes of memory at 0xb5f22000 : fc10000 (VertexShaderCode)
+fault at address 0xb5f42004
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32888
+fault at address 0xb5f42008
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 3288a
+fault at address 0xb5f4200c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 3288e
+fault at address 0xb5f42010
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32892
+fault at address 0xb5f42014
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32896
+fault at address 0xb5f42000
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 3289a
+fault at address 0xb5f42018
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32686
+fault at address 0xb5f42024
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 328b2
+fault at address 0xb5f42028
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 328ce
+fault at address 0xb5f4202c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 328e8
+fault at address 0xb5f42030
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 328ea
+fault at address 0xb5f42034
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 328ee
+fault at address 0xb5f4203c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 328f2
+fault at address 0xb5f42044
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 328f6
+fault at address 0xb5f4204c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 328fa
+fault at address 0xb5f42038
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 328fe
+fault at address 0xb5f42040
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32902
+fault at address 0xb5f42048
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32906
+fault at address 0xb5f42020
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 3290a
+fault at address 0xb5f42050
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32686
+fault at address 0xb5f42064
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32846
+fault at address 0xb5f42068
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32848
+fault at address 0xb5f4206c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 3284c
+fault at address 0xb5f42074
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32850
+fault at address 0xb5f42070
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32854
+fault at address 0xb5f42060
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32858
+fault at address 0xb5f42078
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+
+address is ready, starting monitor
+write in library: /usr/lib/libGLESv2.so.2 at offset 32686
+fault at address 0xb5f42084
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42080
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4208c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42088
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42094
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42090
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4209c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42098
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f420a4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f420a0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f420ac
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f420a8
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f420b4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f420b0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f420bc
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f420b8
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f420c4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f420c0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f420cc
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f420c8
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f420d4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f420d0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f420dc
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f420d8
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f420e4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f420e0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f420ec
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f420e8
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f420f4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f420f0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f420fc
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f420f8
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42104
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42100
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4210c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42108
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42114
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42110
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4211c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42118
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42124
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42120
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4212c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42128
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42134
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42130
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4213c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42138
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42144
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42140
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4214c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42148
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42154
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42150
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4215c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42158
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42164
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42160
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4216c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42168
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42174
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42170
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4217c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42178
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42184
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42180
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4218c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42188
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f42194
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42190
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f421a4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f421a0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f421ac
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f421a8
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f421b4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f421b0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f421c4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f421c0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f421cc
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f421c8
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f421d4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f421d0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f421e4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f421e0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f421ec
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f421e8
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f421f4
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f421f0
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42204
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42200
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4220c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42208
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f42214
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42210
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42224
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42220
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4222c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42228
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f42234
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42230
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42244
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42240
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4224c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42248
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f42254
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42250
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+fault at address 0xb5f42264
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42260
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f4226c
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327ac
+fault at address 0xb5f42268
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327c0
+fault at address 0xb5f42274
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e0
+fault at address 0xb5f42270
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 327e6
+allocated 5000 bytes of memory at 0xb5f1d000 : 43000 (General)
+allocated 4 bytes of memory at 0xb5f1b010 : d803010 (CacheCoherent)
+allocated 32000 bytes of memory at 0xb5ee9000 : 53000 (General)
+allocated 4 bytes of memory at 0xb5ee7014 : d803014 (CacheCoherent)
+allocated 32000 bytes of memory at 0xb5eb5000 : 85000 (General)
+allocated 4 bytes of memory at 0xb5eb3018 : d803018 (CacheCoherent)
+allocated c800 bytes of memory at 0xb5ea6000 : e800000 (PDSPVertexCodeData)
+allocated 4 bytes of memory at 0xb5ea401c : d80301c (CacheCoherent)
+allocated 4 bytes of memory at 0xb5ea3800 : e80c800 (PDSPVertexCodeData)
+allocated 4 bytes of memory at 0xb5ea1020 : d803020 (CacheCoherent)
+allocated c800 bytes of memory at 0xb5e94000 : e80d000 (PDSPVertexCodeData)
+allocated 4 bytes of memory at 0xb5e92024 : d803024 (CacheCoherent)
+
+memcpy to gpu area (PDSPVertexCodeData), offset 0, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset d00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset d80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset e00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset e80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset f00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset f80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1a00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1a80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1b00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1b80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1c00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1c80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1d00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1d80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1e00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1e80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1f00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1f80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2a00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2a80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2b00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2b80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2c00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2c80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2d00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2d80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2e00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2e80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2f00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2f80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3a00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3a80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3b00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3b80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3c00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3c80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3d00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3d80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3e00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3e80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3f00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3f80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4a00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4a80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4b00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4b80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4c00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4c80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4d00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4d80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4e00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4e80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4f00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4f80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5a00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5a80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5b00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5b80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5c00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5c80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5d00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5d80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5e00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5e80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5f00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5f80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6a00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6a80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6b00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6b80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6c00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6c80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6d00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6d80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6e00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6e80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6f00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6f80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7a00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7a80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7b00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7b80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7c00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7c80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7d00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7d80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7e00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7e80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7f00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7f80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8a00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8a80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8b00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8b80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8c00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8c80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8d00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8d80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8e00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8e80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8f00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8f80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9a00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9a80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9b00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9b80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9c00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9c80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9d00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9d80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9e00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9e80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9f00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9f80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset aa00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset aa80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ab00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ab80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ac00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ac80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ad00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ad80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ae00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ae80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset af00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset af80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b800, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b880, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b900, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b980, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ba00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ba80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset bb00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset bb80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset bc00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset bc80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset bd00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset bd80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset be00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset be80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset bf00, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset bf80, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c000, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c080, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c100, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c180, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c200, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c280, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c300, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c380, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c400, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c480, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c500, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c580, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c600, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c680, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c700, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c780, size: 50, function addr: 2f065, library name: /usr/lib/libGLESv2.so.2, area base: e80d000, area size: c800
+external memcpy
+allocated 10 bytes of memory at 0xb5e79100 : fc10100 (VertexShaderCode)
+allocated 80 bytes of memory at 0xb5e78000 : e81a000 (PDSPVertexCodeData)
+allocated 40 bytes of memory at 0xb5e77080 : e81a080 (PDSPVertexCodeData)
+allocated 1c bytes of memory at 0xb5e76020 : 42020 (General)
+allocated 4 bytes of memory at 0xb523a000 : 50000 (General)
+allocated 4 bytes of memory at 0xb52380b8 : d8030b8 (CacheCoherent)
+allocated 400 bytes of memory at 0xb5237000 : f407000 (PixelShaderCode)
+allocated 4 bytes of memory at 0xb52350bc : d8030bc (CacheCoherent)
+allocated 10 bytes of memory at 0xb5234200 : fc10200 (VertexShaderCode)
+allocated 80 bytes of memory at 0xb52330c0 : e81a0c0 (PDSPVertexCodeData)
+allocated 40 bytes of memory at 0xb5232140 : e81a140 (PDSPVertexCodeData)
+allocated 8 bytes of memory at 0xb5231300 : fc10300 (VertexShaderCode)
+external memcpy
+external memcpy
+-----compile vertex shader begins---- 
+
+dlopened: libglslcompiler.so
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+-----compile vertex shader ends ---- 
+-----compile frag shader begins---- 
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+-----compile frag shader ends ---- 
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+allocated 40 bytes of memory at 0xb5230040 : 42040 (General)
+
+memcpy to gpu area (General), offset 0, size: 24, function addr: 9015, library name: /usr/lib/libGLESv2.so.2, area base: 42040, area size: 40
+external memcpy
+external memcpy
+external memcpy
+allocated 19000 bytes of memory at 0xb4faf000 : dc14000 (PDSPPixelCodeData)
+allocated 4 bytes of memory at 0xb522e0c0 : d8030c0 (CacheCoherent)
+
+memcpy to gpu area (PDSPPixelCodeData), offset 0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 120, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+fault at address 0xb5f42280
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 2ca4c
+fault at address 0xb5f42284
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 2ca56
+fault at address 0xb5f42284
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 2cab0
+
+memcpy to gpu area (VertexShaderCode), offset 290, size: 8, function addr: 2cac5, library name: /usr/lib/libGLESv2.so.2, area base: fc00000, area size: 8000
+external memcpy
+fault at address 0xb5f42290
+hit watchpoint 0
+in lib ./injector.o
+callback
+write in library: ./injector.o at offset 2e44
+fault at address 0xb5f42291
+hit watchpoint 0
+in lib ./injector.o
+callback
+write in library: ./injector.o at offset 2e44
+fault at address 0xb5f42292
+hit watchpoint 0
+in lib ./injector.o
+callback
+write in library: ./injector.o at offset 2e44
+fault at address 0xb5f42293
+hit watchpoint 0
+in lib ./injector.o
+callback
+write in library: ./injector.o at offset 2e44
+fault at address 0xb5f42294
+hit watchpoint 0
+in lib ./injector.o
+callback
+write in library: ./injector.o at offset 2e44
+fault at address 0xb5f42295
+hit watchpoint 0
+in lib ./injector.o
+callback
+write in library: ./injector.o at offset 2e44
+fault at address 0xb5f42296
+hit watchpoint 0
+in lib ./injector.o
+callback
+write in library: ./injector.o at offset 2e44
+fault at address 0xb5f42297
+hit watchpoint 0
+in lib ./injector.o
+callback
+write in library: ./injector.o at offset 2e44
+fault at address 0xb5f42298
+hit watchpoint 0
+in lib /usr/lib/libGLESv2.so.2
+callback
+write in library: /usr/lib/libGLESv2.so.2 at offset 32686
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PixelShaderCode), offset 130, size: 10, function addr: 2bb9b, library name: /usr/lib/libGLESv2.so.2, area base: f408000, area size: 8000
+external memcpy
+
+memcpy to gpu area (PixelShaderCode), offset 140, size: 8, function addr: 2d2bd, library name: /usr/lib/libGLESv2.so.2, area base: f408000, area size: 8000
+external memcpy
+allocated 800 bytes of memory at 0xb522d004 : 50004 (General)
+
+memcpy to gpu area (PDSPPixelCodeData), offset 240, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+external memcpy
+allocated 40 bytes of memory at 0xb522b820 : e80c820 (PDSPVertexCodeData)
+
+memcpy to gpu area (PDSPVertexCodeData), offset 0, size: 40, function addr: 30307, library name: /usr/lib/libGLESv2.so.2, area base: e80c820, area size: 40
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 220, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 340, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3c0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 460, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 580, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 600, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6a0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 720, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 280, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 3a0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 920, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset a80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset b20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ba0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset be0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset c80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset d00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 3e0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 500, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset e20, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset ec0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset f40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset f80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1020, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 10a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 10e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1180, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1200, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 540, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 660, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1320, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 13c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1440, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1480, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1520, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 15a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 15e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1680, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1700, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 6a0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 7c0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1820, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 18c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1940, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1980, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1a20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1aa0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1ae0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1b80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1c00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 800, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 920, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1d20, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1dc0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1e40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1e80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1f20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1fa0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 1fe0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2080, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2100, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 960, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset a80, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2220, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 22c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2340, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2380, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2420, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 24a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 24e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2580, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2600, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset ac0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset be0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2720, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 27c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2840, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2880, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2920, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 29a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 29e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2a80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2b00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset c20, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset d40, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2c20, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2cc0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2d40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2d80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2e20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2ea0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2ee0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 2f80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3000, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset d80, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset ea0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3120, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 31c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3240, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3280, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3320, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 33a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 33e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3480, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3500, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset ee0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1000, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3620, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 36c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3740, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3780, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3820, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 38a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 38e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3980, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3a00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1040, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1160, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3b20, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3bc0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3c40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3c80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3d20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3da0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3de0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3e80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 3f00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 11a0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 12c0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4020, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 40c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4140, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4180, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4220, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 42a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 42e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4380, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4400, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1300, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1420, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4520, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 45c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4640, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4680, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4720, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 47a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 47e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4880, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4900, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1460, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1580, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4a20, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4ac0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4b40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4b80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4c20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4ca0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4ce0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4d80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4e00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 15c0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 16e0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4f20, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 4fc0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5040, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5080, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5120, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 51a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 51e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5280, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5300, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1720, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1840, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5420, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 54c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5540, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5580, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5620, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 56a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 56e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5780, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5800, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1880, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 19a0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5920, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 59c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5a40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5a80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5b20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5ba0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5be0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5c80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5d00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 19e0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1b00, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5e20, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5ec0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5f40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 5f80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6020, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 60a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 60e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6180, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6200, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1b40, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1c60, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6320, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 63c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6440, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6480, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6520, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 65a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 65e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6680, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6700, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1ca0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1dc0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6820, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 68c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6940, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6980, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6a20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6aa0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6ae0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6b80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6c00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1e00, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1f20, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6d20, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6dc0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6e40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6e80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6f20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6fa0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 6fe0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7080, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7100, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 1f60, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 2080, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7220, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 72c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7340, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7380, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7420, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 74a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 74e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7580, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7600, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 20c0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 21e0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7720, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 77c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7840, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7880, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7920, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 79a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 79e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7a80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7b00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 2220, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 2340, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7c20, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7cc0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7d40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7d80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7e20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7ea0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7ee0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 7f80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8000, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 2380, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 24a0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8120, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 81c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8240, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8280, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8320, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 83a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 83e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8480, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8500, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 24e0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 2600, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8620, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 86c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8740, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8780, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8820, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 88a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 88e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8980, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8a00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 2640, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 2760, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8b20, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8bc0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8c40, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8c80, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8d20, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8da0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8de0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8e80, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 8f00, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 27a0, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 28c0, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9020, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 90c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9140, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9180, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9220, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 92a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 92e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9380, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9400, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 2900, size: a0, function addr: 31021, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPPixelCodeData), offset 2a20, size: 0, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: dc14000, area size: 19000
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9520, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 95c0, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9640, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9680, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9720, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 97a0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 97e0, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9880, size: 28, function addr: 2e3a7, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+
+memcpy to gpu area (PDSPVertexCodeData), offset 9900, size: 40, function addr: 2fb55, library name: /usr/lib/libGLESv2.so.2, area base: e800000, area size: c800
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+external memcpy
+Handling signal number = 2
+Cleanup of GL, GBM and DRM completed

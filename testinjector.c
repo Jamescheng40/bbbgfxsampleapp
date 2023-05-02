@@ -17,6 +17,11 @@
 #include <sched.h>
 #include <unistd.h>
 
+#define ALIGN(x,a)              __ALIGN_MASK(x,(typeof(x))(a)-1)
+#define __ALIGN_MASK(x,mask)    (((x)+(mask))&~(mask))
+#define ALIGN_DOWN(x, a)    ALIGN((x) - ((a) - 1), (a))
+#define ROUND_UP(N, S) ((((N) + (S) - 1) / (S)) * (S))
+
 typedef struct {
     /* CPU Virtual Address */
     void*                   pvLinAddr;
@@ -207,9 +212,9 @@ void* dlopen(const char* filename, int flags)
     static void* (*real_dlopen)(const char *filename, int flags) ;
 
     if (real_dlopen == NULL) {
-        real_dlopen = dlsym(RTLD_NEXT, #fn_name);
+        real_dlopen = dlsym(RTLD_NEXT, "dlopen");
         if (real_dlopen == NULL) {
-            fprintf(stderr, "could not dlsym %s\n", #fn_name);
+            fprintf(stderr, "could not dlsym %s\n", "dlopen");
         }
     }
 

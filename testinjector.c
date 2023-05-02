@@ -17,12 +17,76 @@
 #include <sched.h>
 #include <unistd.h>
 
+typedef struct {
+    /* CPU Virtual Address */
+    void*                   pvLinAddr;
+    /* CPU Virtual Address (for kernel mode) */
+    void*                   pvLinAddrKM;
+    /* Device Virtual Address */
+    uint32_t                sDevVAddr;
+    /* allocation flags */
+    uint32_t                ui32Flags;
+    /* client allocation flags */
+    uint32_t                ui32ClientFlags;
+    /* allocation size in bytes */
+    size_t                  uAllocSize;
+    //...
+    //this actually contains more data but we don't really need it
+} PVRSRV_CLIENT_MEM_INFO;
+
+#define IN_RANGE(val, min, len) (val >= min && val <= (min + len))
+char* addr_to_name(size_t addr) {
+    if (IN_RANGE(addr, 0x1000, 0x87fe000)) {
+        return "General";
+    } else if (IN_RANGE(addr, 0xc800000, 0xfff000)){
+        return "TAData";
+    } else if (IN_RANGE(addr, 0xe400000, 0x7f000)) {
+        return "KernelCode";
+    } else if (IN_RANGE(addr, 0xf000000, 0x3ff000)) {
+        return "KernelData";
+    } else if (IN_RANGE(addr, 0xf400000, 0x4ff000)) {
+        return "PixelShaderCode";
+    } else if (IN_RANGE(addr, 0xfc00000, 0x1ff000)) {
+        return "VertexShaderCode";
+    } else if (IN_RANGE(addr, 0xdc00000, 0x7ff000)) {
+        return "PDSPPixelCodeData";
+    } else if (IN_RANGE(addr, 0xe800000, 0x7ff000)) {
+        return "PDSPVertexCodeData";
+    } else if (IN_RANGE(addr, 0xd800000, 0x3ff000)) {
+        return "CacheCoherent";
+    } else if (IN_RANGE(addr, 0xb800000, 0)) { //seemingly unused?
+        return "Shared3DParameters";
+    } else if (IN_RANGE(addr, 0xb800000, 0xfff000)) {
+        return "PerContext3DParameters";
+    } else {
+        return "Unknown";
+    }
+}
+
+//given the name of the 
+bool is_usse_code(size_t addr) {
+    if (IN_RANGE(addr, 0xf400000, 0x4ff000)) {
+        return "PixelShaderCode";
+    } else if (IN_RANGE(addr, 0xfc00000, 0x1ff000)) {
+        return "VertexShaderCode";
+    } else {
+        return false;
+    }
+}
+
+typedef struct Allocation {
+    void* cpu_addr;
+    uint32_t gpu_addr;
+    uint32_t size;
+} Allocation;
+
 typedef struct Library {
     uintptr_t base;
     size_t size;
     const char* name;
 } Library;
 
+//TODO we rely on the fact that all the programs we're testing are single-threaded
 typedef struct Watchpoint {
     uintptr_t address;
     size_t len;
@@ -38,8 +102,12 @@ typedef struct Watchpoint {
     void (*callback_post) (uintptr_t addr, struct Watchpoint hit);
 } Watchpoint;
 
+static Allocation* map;
 static Library*    libraries;
 static Watchpoint* watchpoints;
+
+static int num_changes = 0;
+static size_t addr_test = 0;
 
 static void sev_handler(int i, siginfo_t* siginfo, void* uap) {
     uintptr_t addr = (uintptr_t)siginfo->si_addr;

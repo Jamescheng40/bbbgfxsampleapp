@@ -189,20 +189,30 @@ static int iterate_callback (struct dl_phdr_info *info, size_t sze, void * ptr) 
     return 0;
 }
 
-static void* real_dlopen(const char* filename, int flags)
-{
+// static void* real_dlopen(const char* filename, int flags)
+// {
+    
+//     void* ret = dlsym(RTLD_NEXT, "dlopen");
+//     if (ret == NULL) {
+//         fprintf(stderr, "could not dlsym %s\n", "dlopen");
+//     }
 
-    void* ret = dlsym(RTLD_NEXT, "dlopen");
-    if (ret == NULL) {
-        fprintf(stderr, "could not dlsym %s\n", "dlopen");
-    }
+//     return ret;
 
-    return ret;
-
-}
+// }
 
 void* dlopen(const char* filename, int flags)
 {
+
+    static void* (*real_dlopen)(const char *filename, int flags) ;
+
+    if (real_dlopen == NULL) {
+        real_dlopen = dlsym(RTLD_NEXT, #fn_name);
+        if (real_dlopen == NULL) {
+            fprintf(stderr, "could not dlsym %s\n", #fn_name);
+        }
+    }
+
     void* ret = real_dlopen(filename, flags | RTLD_GLOBAL);
     if (ret) {
         printf("\ndlopened: %s\n", filename);

@@ -19,12 +19,13 @@ static void* real_dlopen(const char* filename, int flags)
 
 void* dlopen(const char* filename, int flags)
 {
+    printf("is it even here yet \n");
     void* ret = real_dlopen(filename, flags | RTLD_GLOBAL);
     if (ret) {
         printf("\ndlopened: %s\n", filename);
     }
 
-    dl_iterate_phdr(iterate_callback, 0);
+    //dl_iterate_phdr(iterate_callback, 0);
     return ret;
 
 }

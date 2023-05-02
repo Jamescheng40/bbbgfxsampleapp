@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <dlfcn.h>
 #include <stdint.h>
+#include <string.h>
 #include <link.h>
 #include "stb_ds.h"
 
